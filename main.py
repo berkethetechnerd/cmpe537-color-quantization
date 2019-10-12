@@ -100,7 +100,7 @@ if input_mode == 1:
     centers = [pix[point_x, point_y] for point_x, point_y in points]
 elif input_mode == 2:
     # Centers by uniform random
-    centers = np.random.uniform(0, 256, (input_size, 3))
+    centers = np.random.uniform(0, 255.0, (input_size, 3))
 else:
     # Wrong mode selection, exit the script
     print("Erroneous mode selection")
