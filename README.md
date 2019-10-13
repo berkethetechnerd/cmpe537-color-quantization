@@ -12,5 +12,5 @@ The script takes three required and one optional argument which all are explaine
 Mode is for the two deliverables of homework. ‘Mode 1’ runs by the manual selection of points, and ‘Mode 2’ runs by the NumPy Uniform Random selection.
 
 Run the command as follows,   
-    **e.g.** python main.py -f ./data/1.jpg -m 2 -s 32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**e.g.** python main.py -f ./data/1.jpg -m 2 -s 32
 
