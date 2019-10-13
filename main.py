@@ -6,7 +6,7 @@ import argparse
 
 
 # Run K-Means algorithm
-def quantize(img: Image, color_level: int, iteration_level: int):
+def quantize(img, color_level, iteration_level):
     # Get the raw data and attributes of image
     img_raw_data = np.array(img)
     img_raw_height, img_raw_width, img_raw_depth = tuple(img_raw_data.shape)
