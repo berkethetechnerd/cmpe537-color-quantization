@@ -1,7 +1,7 @@
 from PIL import Image
 from matplotlib import pyplot as plt
 import numpy as np
-import shutil, os
+import os
 import argparse
 
 
@@ -85,7 +85,7 @@ input_iteration = int(args['iteration'])
 
 # Define output path and format
 output_dir = './output/'
-output_name = "./output/output_image_" + str(input_size) + "_centers" + ".jpg"
+output_name = "./output/output_image_" + "method" + str(input_mode) + "_" + str(input_size) + "centers" + ".jpg"
 output_format = "JPEG"
 
 # Read and open input image
